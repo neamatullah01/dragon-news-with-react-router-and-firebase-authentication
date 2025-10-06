@@ -7,7 +7,7 @@ const NewsCard = ({ news }) => {
   return (
     <div className="card w-full bg-base-100 shadow-md border border-gray-200">
       {/* Author & Actions */}
-      <div className="flex justify-between items-center p-4 border-b border-gray-100">
+      <div className="flex justify-between items-center p-4 border-b border-gray-100 bg-base-200">
         <div className="flex items-center gap-3">
           <div className="w-10 h-10 rounded-full overflow-hidden">
             <img
