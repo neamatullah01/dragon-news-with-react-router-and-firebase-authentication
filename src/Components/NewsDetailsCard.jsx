@@ -32,13 +32,14 @@ const NewsDetailsCard = ({ news }) => {
         <p className="text-sm text-gray-700 leading-relaxed">{details}</p>
 
         {/* Button */}
-        <div className="mt-4">
-          <button className="btn btn-sm bg-pink-600 hover:bg-pink-700 text-white rounded-lg flex items-center gap-2">
+        <div className="mt-4 flex justify-start">
+          <Link
+            to={`/category/${news.category_id}`}
+            className="btn btn-sm bg-pink-600 hover:bg-pink-700 text-white rounded-lg flex items-center gap-2"
+          >
             <FaArrowLeft />
-            <Link to={`/category/${news.category_id}`}>
-              All news in this category
-            </Link>
-          </button>
+            <span>All news in this category</span>
+          </Link>
         </div>
       </div>
     </div>
