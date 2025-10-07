@@ -27,7 +27,7 @@ const CategoryNews = () => {
       </h1>
       <div className="grid grid-cols-1 gap-5">
         {categoryNews.map((news) => (
-          <NewsCard news={news}></NewsCard>
+          <NewsCard key={news.id} news={news}></NewsCard>
         ))}
       </div>
     </div>

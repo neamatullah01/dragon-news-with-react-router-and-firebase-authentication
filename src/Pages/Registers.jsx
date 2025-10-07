@@ -39,6 +39,7 @@ const Registers = () => {
               name="name"
               className="input"
               placeholder="Name"
+              required
             />
             <label className="label">Photo URL</label>
             <input
@@ -46,6 +47,7 @@ const Registers = () => {
               name="photoUrl"
               className="input"
               placeholder="Photo URL"
+              required
             />
             <label className="label">Email</label>
             <input
@@ -53,6 +55,7 @@ const Registers = () => {
               name="email"
               className="input"
               placeholder="Email"
+              required
             />
             <label className="label">Password</label>
             <input
@@ -60,6 +63,7 @@ const Registers = () => {
               name="password"
               className="input"
               placeholder="Password"
+              required
             />
             <button type="submit" className="btn btn-neutral mt-4">
               Register
